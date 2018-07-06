@@ -3,7 +3,7 @@
     Project:    Andrew Mawhinney Construction page 
     Version:    3.0
     Author:     Andrew Mawhinney
-    Owner:      Andrew Mawhinney  --  https://andrewmawhinney.com/
+    Owner:      Andrew Mawhinney  --  http://andrewmawhinney.com/
     Email:      ajmawhinn@gmail.com
     Follow:     https://twitter.com/AMawhinn
 ===================================================-->
@@ -18,13 +18,12 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">-->
     <link rel="shortcut icon" href="support_files/images/flag.png" type="image/x-icon">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src=”scripts.js”></script>
+    <script src="scripts.js"></script>
 
 </head>
 
@@ -89,37 +88,7 @@
 </body>
 
 <link rel="stylesheet" href="support_files/port.css">
-<script>
 
 
-
-    $(window).scroll(function() {
-        var scrollviz = $(window).scrollTop();
-        if (scrollviz > window.innerHeight - 600) {
-            $(".back1").removeClass("back2");
-        } else {
-            $(".back1").addClass("back2");
-        }
-    });
-    
-    
-    $(window).scroll(function() {
-        var scrollviz = $(window).scrollTop();
-        if (scrollviz > window.innerHeight - 600) {
-            $(".font-color1").removeClass("font-color2");
-        } else {
-            $(".font-color1").addClass("font-color2");
-        }
-    });
-
-    function toggleMenu() {
-        $("#hamburgerMenu").toggleClass("collapsed");
-        $(".aa-mobile-overlay").animate({
-            height: "toggle",
-            opacity: "toggle"
-        }, 300);
-    }
-
-</script>
-
+	<script src="support_files/support.js" type="text/javascript"></script>
 </html>
