@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!-- ================================================
+    Project:    Andrew Mawhinney Construction page 
+    Version:    3.0
+    Author:     Andrew Mawhinney
+    Owner:      Andrew Mawhinney  --  https://andrewmawhinney.com/
+    Email:      ajmawhinn@gmail.com
+    Follow:     https://twitter.com/AMawhinn
+===================================================-->
+<html>
+
+<head>
+    <title>AJM Portfolio</title>
+    <meta name="keywords" content="Andrew Mawhinney, Web Developer, Web Designer">
+    <meta name="description" content="Just a simple dude working with code to bring about high quality webpages, APIs and IoT aplications.">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link rel="shortcut icon" href="support_files/images/flag.png" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src=”scripts.js”></script>
+
+</head>
+
+<header>
+<!-- Navbar -->
+        <nav class="aa-nav back2 back1">
+            <img class="aa-nav-icon" src="support_files/images/flag.png"/>
+            <ul class="aa-nav-items">
+                <li><a class="font-color2 font-color1 btn waves-effect waves-red" href="">Home</a></li>
+                <li><a class="font-color2 font-color1" href="">Click me</a></li>
+                <li><a class="font-color2 font-color1" href="">About</a></li>
+                <li><a class="font-color2 font-color1" href="">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="aa-hamburger-menu collapsed" id="hamburgerMenu" onclick="toggleMenu()">
+            <span class="aa-icon-bar"></span>
+            <span class="aa-icon-bar"></span>
+            <span class="aa-icon-bar"></span>
+        </div>
+
+        <div class="aa-mobile-overlay">
+            <ul class="aa-mobile-nav-items">
+                <li><a href="">Home</a></li>
+                <li><a href="">Click me</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <!-- <hr></hr> -->
+                <li><a href="">Twitter</a></li>
+                <li><a href="">Code Pen</a></li>
+                <li><a href="">Github</a></li>
+                <li><a href="">freeCodeCamp</a></li>
+                <li><a href="">Blog</a></li>
+            </ul>
+        </div>
+<!-- /Navbar -->
+
+        <div id="title">
+            <h1 class="item1">A collection of works <br> Built and designed by <br>Andrew Mawhinney</h1>
+        </div>
+    <h4 class="sub-title"><strong>The bit of what I do is done not because I have to do it; <br>
+        But because I can do it.  That's what drives me.
+    <hr></strong></h4>
+        <div class="col s5 psh-s7 container"></div>
+
+    <div id="hero" id="top-image"></div>
+
+</header>
+
+<body>
+
+    <div class="col s5 psh-s7 container"></div>
+    <div class="container" style="border: solid red 1px" id="body">
+        
+
+        
+        <h1>Hey there!</h1>
+        <h4>I am a Kansas boy jumping head on into the world of Web Development. Keeping life as simple as it should be. </h4>
+        <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h3>
+        <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h3>
+        <!-- Page Content goes here -->
+    </div>
+</body>
+
+<link rel="stylesheet" href="support_files/port.css">
+<script>
+
+
+
+    $(window).scroll(function() {
+        var scrollviz = $(window).scrollTop();
+        if (scrollviz > window.innerHeight - 600) {
+            $(".back1").removeClass("back2");
+        } else {
+            $(".back1").addClass("back2");
+        }
+    });
+    
+    
+    $(window).scroll(function() {
+        var scrollviz = $(window).scrollTop();
+        if (scrollviz > window.innerHeight - 600) {
+            $(".font-color1").removeClass("font-color2");
+        } else {
+            $(".font-color1").addClass("font-color2");
+        }
+    });
+
+    function toggleMenu() {
+        $("#hamburgerMenu").toggleClass("collapsed");
+        $(".aa-mobile-overlay").animate({
+            height: "toggle",
+            opacity: "toggle"
+        }, 300);
+    }
+
+</script>
+
+</html>
