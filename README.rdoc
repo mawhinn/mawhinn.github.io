@@ -1,0 +1,5 @@
+Welcome to my portfolio. 
+
+Here I showcase my skills and passion for web-development.
+
+You may easily view my work live at git.andrewmawhinney.com
