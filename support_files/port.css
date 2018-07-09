@@ -20,12 +20,17 @@
 
 }
 
+.row {
+      padding: 30px;
+      border: 1px solid #fff;
+    }
+    .row{
+      margin: 40px auto;
+    }
+
 .item1 {
-    /*background: lightgrey;
-    delete when done*/
-    font-size: 4vw;
-    /*responsive text*/
-    justify-self: left;
+    font-size: 4.5vw;
+    /*justify-self: left;*/
 }
 
 
@@ -48,7 +53,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background: linear-gradient(to right, #000000, #ffffff);
+    background: linear-gradient(to right, #000000, #cccccc);
     opacity: 0.5;
 
 }
@@ -60,8 +65,6 @@
     background-color: transparent;
     z-index: 1;
     color: #f7f7f7;
-    margin-top: 300px;
-    padding: 3%;
 }
 
 .sub-title {
@@ -70,8 +73,6 @@
     background-color: transparent;
     z-index: 1;
     color: orangered;
-    margin-top: 300px;
-    padding: 20%;
 }
 
 /* NAVBAR */
