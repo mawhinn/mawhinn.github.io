@@ -36,18 +36,27 @@
     /*justify-self: left;*/
 }
 .item2 {
-    font-size: 4vw;
+    font-size: 5vw;
     margin-top: 400px;
       padding-right: 240px;
     /*justify-self: left;*/
 }
 .item3 {
-    font-size: 4vw;
+    font-size: 6vw;
       padding-right: 50px;
+      margin-bottom: 400px;
     /*justify-self: left;*/
 }
 
 .hero {
+    background: url(images/hero_mountian.jpg);
+    background-size: cover, cover;
+    background-position: center, center;
+    min-height: 1000px;
+    background-attachment: fixed;
+}
+
+.ero-after {
     background: url(images/hero_mountian.jpg);
     background-size: cover, cover;
     background-position: center, center;
@@ -64,16 +73,14 @@
     left: 0;
     background: linear-gradient(to right, #000000, #cccccc);
     opacity: 0.5;
-    margin-bottom: -500px;
+
+    min-height: 1000px;
     z-index: 0;
 }
 
 @media screen and (max-width: 530px){
-  .hero {
-    min-height: 500px;
-  }
-  .hero::before {
-    min-height: 500px;
+  .ero-after {
+    min-height: 470px;
   }
 }
 
