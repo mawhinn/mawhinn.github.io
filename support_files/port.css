@@ -19,12 +19,16 @@
     grid-template-rows: repeat(auto-fill, minmax(3220000%, 1fr));
 
 }
+.section {
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+}
 
-.row {
+.roww {
       padding: 30px;
       /*border: 1px solid #fff;*/
     }
-.row{
+.roww {
       margin: 100px auto;
     }
 
@@ -81,6 +85,9 @@
 @media screen and (max-width: 610px){
   .ero-after {
     min-height: 470px;
+  }
+  .right-align {
+    text-align: left;
   }
 }
 

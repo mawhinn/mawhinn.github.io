@@ -1,4 +1,8 @@
 /* Javascript */
+    $(document).ready(function(){
+      $('.materialboxed').materialbox();
+    });
+
     $(window).scroll(function() {
         var scrollviz = $(window).scrollTop();
         if (scrollviz > window.innerHeight - 300) {
