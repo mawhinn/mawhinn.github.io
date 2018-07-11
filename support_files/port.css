@@ -31,20 +31,20 @@
 .item1 {
     font-size: 4vw;
     margin-top: 400px;
-      padding-right: 450px;
+      padding-right: 400px;
       float:left;
     /*justify-self: left;*/
 }
 .item2 {
     font-size: 5vw;
     margin-top: 400px;
-      padding-right: 240px;
+      padding-right: 200px;
     /*justify-self: left;*/
 }
 .item3 {
     font-size: 6vw;
-      padding-right: 50px;
-      margin-bottom: 400px;
+      padding-right: 30px;
+      margin-bottom: 300px;
     /*justify-self: left;*/
 }
 
@@ -78,7 +78,7 @@
     z-index: 0;
 }
 
-@media screen and (max-width: 530px){
+@media screen and (max-width: 610px){
   .ero-after {
     min-height: 470px;
   }
