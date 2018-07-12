@@ -323,3 +323,15 @@ body {
 .link:hover {
   color: #efdc97;
 }
+.parallax-title {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 5vw;
+    background-color: transparent;
+    z-index: 1;
+    color: #f7f7f7;
+    margin-left: 29%;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}

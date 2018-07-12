@@ -1,7 +1,7 @@
 /* Javascript */
     $(document).ready(function(){
-
       $('.materialboxed').materialbox();
+       $('.parallax').parallax();
     });
 
     $(window).scroll(function() {
