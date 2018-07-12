@@ -112,7 +112,7 @@
     position: absolute;
     background-color: transparent;
     z-index: 1;
-    color: #efdc97;
+    color: #57ba86;
 }
 
 /* NAVBAR */
@@ -209,7 +209,7 @@
 }
 
 .aa-nav-items > li > a:hover {
-    color: #efdc97;
+    color: #57ba86;
 }
 
 /* ./Nav items */
@@ -238,7 +238,7 @@
 }
 
 .aa-hamburger-menu:hover > .aa-icon-bar {
-    background-color: #efdc97;
+    background-color: #57ba86;
 }
 
 .aa-hamburger-menu:not(.collapsed) .aa-icon-bar:nth-child(1) {
@@ -294,7 +294,7 @@
 }
 
 .aa-mobile-nav-items > li > a:hover {
-    color: #efdc97;
+    color: #57ba86;
 }
 
 /* ./Mobile Overlay */
@@ -321,7 +321,7 @@ body {
 }
 
 .link:hover {
-  color: #efdc97;
+  color: #57ba86;
 }
 .parallax-title {
     font-family: 'Archivo Black', sans-serif;
