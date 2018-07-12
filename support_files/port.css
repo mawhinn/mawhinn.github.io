@@ -335,3 +335,14 @@ body {
     display: flex;
     align-items: center;
 }
+.tabs .indicator{
+  background-color: #57ba86;
+  color: black;
+}
+.tabs .tab a:focus, .tabs .tab a:focus.active{
+  background: transparent;
+}
+
+.tabss:link {
+  color: black;
+}

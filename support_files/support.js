@@ -1,7 +1,9 @@
 /* Javascript */
     $(document).ready(function(){
-      $('.materialboxed').materialbox();
+
+       $('.materialboxed').materialbox();
        $('.parallax').parallax();
+       $('.tabs').tabs();
     });
 
     $(window).scroll(function() {
