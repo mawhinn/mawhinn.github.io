@@ -1,6 +1,6 @@
 /* CSS */
 
-@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
+/*@import url('https://fonts.googleapis.com/css?family=Archivo+Black');*/
 @import url('https://fonts.googleapis.com/css?family=Coustard:900|Sorts+Mill+Goudy');
 
 .grid {
@@ -42,20 +42,23 @@ a {
 .item1 {
     font-size: 4vw;
     margin-top: 400px;
-      padding-right: 400px;
-      float:left;
+    padding-right: 400px;
+    float:left;
+    line-height: 1.5;
     /*justify-self: left;*/
 }
 .item2 {
     font-size: 5vw;
     margin-top: 400px;
-      padding-right: 200px;
+    padding-right: 200px;
+    line-height: 1.5;
     /*justify-self: left;*/
 }
 .item3 {
     font-size: 6vw;
-      padding-right: 30px;
-      margin-bottom: 300px;
+    padding-right: 30px;
+    margin-bottom: 250px;
+    line-height: 1.5;
     /*justify-self: left;*/
 }
 
@@ -327,7 +330,7 @@ a {
 }
 .parallax-title {
     font-family: 'Coustard', serif;
-    font-size: 5vw;
+    font-size: 4vw;
     background-color: transparent;
     z-index: 1;
     color: #f7f7f7;
@@ -343,4 +346,8 @@ a {
 }
 .tabs .tab a:focus, .tabs .tab a:focus.active{
   background: transparent;
+}
+.pbody {
+  font-size: 125%;
+  line-height: 1.7;
 }
