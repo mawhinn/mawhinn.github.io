@@ -366,3 +366,6 @@ a {
   background-size: cover, cover;
   background-position: center, center;
 }
+#tab1 {
+  font-weight:500;
+}
