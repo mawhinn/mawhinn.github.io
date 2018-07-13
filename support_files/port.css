@@ -342,7 +342,3 @@ body {
 .tabs .tab a:focus, .tabs .tab a:focus.active{
   background: transparent;
 }
-
-.tabss:link {
-  color: black;
-}
