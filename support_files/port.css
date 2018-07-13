@@ -99,6 +99,9 @@ a {
   .right-align {
     text-align: left;
   }
+  .parallax1 {
+    min-height: 50px;
+  }
 }
 
 #title {
@@ -340,6 +343,7 @@ a {
     display: flex;
     align-items: center;
 }
+/* Overriding tab color*/
 .tabs .indicator{
   background-color: #ADB9D1;
   color: black;
@@ -347,7 +351,18 @@ a {
 .tabs .tab a:focus, .tabs .tab a:focus.active{
   background: transparent;
 }
+/* Body text */
 .pbody {
-  font-size: 125%;
+  font-size: 130%;
   line-height: 1.7;
+}
+
+.parallax1 {
+  background-size: cover, cover;
+  background-position: center, center;
+}
+
+.parallax2 {
+  background-size: cover, cover;
+  background-position: center, center;
 }
