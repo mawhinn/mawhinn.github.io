@@ -1,10 +1,9 @@
 /* CSS */
 
 @import url('https://fonts.googleapis.com/css?family=Archivo+Black');
-@import url('https://fonts.googleapis.com/css?family=Stint+Ultra+Expanded');
+@import url('https://fonts.googleapis.com/css?family=Coustard:900|Sorts+Mill+Goudy');
 
 .grid {
-    border: 1px red solid;
     display: grid;
     grid-gap: 15px;
     grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
@@ -17,7 +16,15 @@
     padding: 29px;
     font-size: 150%;
     grid-template-rows: repeat(auto-fill, minmax(3220000%, 1fr));
-
+}
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: 'Sorts Mill Goudy', serif;
 }
 .section {
   padding-top: 4vw;
@@ -53,7 +60,7 @@
 }
 
 .hero {
-    background: url(images/hero_mountian.jpg);
+    background: url(images/hero5.jpg);
     background-size: cover, cover;
     background-position: center, center;
     min-height: 1000px;
@@ -76,7 +83,7 @@
     bottom: 0;
     left: 0;
     background: linear-gradient(to right, #000000, #cccccc);
-    opacity: 0.5;
+    opacity: 0.3;
 
     min-height: 1000px;
     z-index: 0;
@@ -92,7 +99,7 @@
 }
 
 #title {
-    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Coustard', serif;
     position: absolute;
     /*Keep it floating*/
     background-color: transparent;
@@ -112,7 +119,7 @@
     position: absolute;
     background-color: transparent;
     z-index: 1;
-    color: #57ba86;
+    color: #ADB9D1;
 }
 
 /* NAVBAR */
@@ -153,7 +160,7 @@
     box-shadow: 0px 1px 8px rgba(0, 0, 0, .15);
     transition: 0.6s;
     z-index: 3;
-    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Coustard', serif;
 }
 
 .back1 {
@@ -165,7 +172,7 @@
     background: transparent;
 }
 .font-color1 {
-    color: #3a3a3a;
+    color: #212121;
     transition: 0.6s;
 }
 .font-color2 {
@@ -209,7 +216,7 @@
 }
 
 .aa-nav-items > li > a:hover {
-    color: #57ba86;
+    color: #ADB9D1;
 }
 
 /* ./Nav items */
@@ -238,7 +245,7 @@
 }
 
 .aa-hamburger-menu:hover > .aa-icon-bar {
-    background-color: #57ba86;
+    background-color: #ADB9D1;
 }
 
 .aa-hamburger-menu:not(.collapsed) .aa-icon-bar:nth-child(1) {
@@ -281,20 +288,20 @@
 }
 
 .aa-mobile-nav-items > li {
-    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Coustard', serif;
     display: block;
     padding-top: 30px;
-    color: #3a3a3a;
+    color: #212121;
 }
 
 .aa-mobile-nav-items > li > a {
     text-decoration: none;
     font-size: 25px;
-    color: #3a3a3a;
+    color: #212121;
 }
 
 .aa-mobile-nav-items > li > a:hover {
-    color: #57ba86;
+    color: #ADB9D1;
 }
 
 /* ./Mobile Overlay */
@@ -315,16 +322,11 @@
 
 /* /NAVBAR */
 
-body {
-    background: #f7f7f7;
-    z-index: 3;
-}
-
 .link:hover {
-  color: #57ba86;
+  color: #ADB9D1;
 }
 .parallax-title {
-    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Coustard', serif;
     font-size: 5vw;
     background-color: transparent;
     z-index: 1;
@@ -336,7 +338,7 @@ body {
     align-items: center;
 }
 .tabs .indicator{
-  background-color: #57ba86;
+  background-color: #ADB9D1;
   color: black;
 }
 .tabs .tab a:focus, .tabs .tab a:focus.active{
