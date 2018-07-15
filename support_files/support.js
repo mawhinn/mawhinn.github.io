@@ -13,10 +13,7 @@
         } else {
             $(".back1").addClass("back2");
         }
-    });
 
-
-    $(window).scroll(function() {
         var scrollviz = $(window).scrollTop();
         if (scrollviz > window.innerHeight - 300) {
             $(".font-color1").removeClass("font-color2");

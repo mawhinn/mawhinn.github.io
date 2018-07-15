@@ -3,6 +3,7 @@
 /*@import url('https://fonts.googleapis.com/css?family=Archivo+Black');*/
 @import url('https://fonts.googleapis.com/css?family=Coustard:900|Sorts+Mill+Goudy');
 
+
 .grid {
     display: grid;
     grid-gap: 15px;
@@ -85,8 +86,8 @@ a {
     right: 0;
     bottom: 0;
     left: 0;
-    background: linear-gradient(to right, #000000, #cccccc);
-    opacity: 0.3;
+    background: linear-gradient(to top, #000000, #cccccc);
+    opacity: 0.2;
 
     min-height: 1000px;
     z-index: 0;
@@ -366,6 +367,7 @@ a {
   background-size: cover, cover;
   background-position: center, center;
 }
+
 #tab1 {
   font-weight:500;
 }
