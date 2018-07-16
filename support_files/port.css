@@ -1,6 +1,5 @@
 /* CSS */
 
-/*@import url('https://fonts.googleapis.com/css?family=Archivo+Black');*/
 @import url('https://fonts.googleapis.com/css?family=Coustard:900|Sorts+Mill+Goudy');
 
 
@@ -120,14 +119,6 @@ a {
   	justify-content: left;
   	align-items: center;
   }
-
-.sub-title {
-    font-family: 'Stint Ultra Expanded', cursive;
-    position: absolute;
-    background-color: transparent;
-    z-index: 1;
-    color: #ADB9D1;
-}
 
 /* NAVBAR */
 
