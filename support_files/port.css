@@ -111,7 +111,7 @@ a:hover:after{
     right: 0;
     bottom: 0;
     left: 0;
-    background: linear-gradient(to top, #000000, #cccccc);
+    background: linear-gradient(to bottom, #000000, #ffffff);
     opacity: 0.2;
 
     min-height: 1000px;
@@ -495,4 +495,9 @@ figure.snip1091.hover figcaption:after {
 
 #tab1 {
   font-weight:500;
+}
+.skills ul li {
+    display: inline;
+    font-size: 5em;
+    margin: 0.3em;
 }
