@@ -398,7 +398,7 @@ a:hover:after{
 /* ./Media queries */
 
 /* /NAVBAR */
-/* Image Hover*/
+/* Image Hover effect*/
 figure.snip1091 {
   font-family: 'Raleway', Arial, sans-serif;
   position: relative;
@@ -412,7 +412,7 @@ figure.snip1091 {
   text-align: center;
   background: #000000;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-  box-shadow: 5px 8px 18px #888888;
+  box-shadow: 5px 8px 10px #888888;
 }
 
 figure.snip1091 * {
