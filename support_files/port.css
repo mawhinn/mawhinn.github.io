@@ -27,6 +27,44 @@ p,
 a {
   font-family: 'Sorts Mill Goudy', serif;
 }
+
+/* SideNavbar*/
+.mySidenav .sn {
+    right: -70px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    position: fixed;
+    color: white;
+    border-radius: 5px 0px 0px 5px;
+    z-index: 5;
+    font-size: 120%;
+}
+
+.mySidenav .sn:hover {
+    right: 0;
+}
+
+#twitter {
+    top: 220px;
+    background-color: #4E4E4E;
+}
+
+#github {
+    top: 280px;
+    background-color: #4E4E4E;
+}
+
+#codepen {
+    top: 340px;
+    background-color: #4E4E4E;
+}
+
+#linkedin {
+    top: 400px;
+    background-color: #4E4E4E;
+}
 /* Hover Links
 a {
 	color: red;
@@ -394,10 +432,10 @@ a:hover:after{
         display: none;
     }
 }
-
 /* ./Media queries */
 
 /* /NAVBAR */
+
 /* Image Hover effect*/
 figure.snip1091 {
   font-family: 'Raleway', Arial, sans-serif;
