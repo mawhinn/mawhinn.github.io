@@ -4,7 +4,11 @@
        $('.materialboxed').materialbox();
        $('.parallax').parallax();
        $('.tabs').tabs();
-    });
+       $('.datepicker').datepicker({
+         disableWeekends: true,
+         yearRange: 1
+       });
+     });
 
     $(window).scroll(function() {
         var scrollviz = $(window).scrollTop();
