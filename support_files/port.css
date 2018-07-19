@@ -188,22 +188,22 @@ a:hover:after{
 
 /* nav hover effect */
 
-.snip1226 {
+.flip {
   text-transform: uppercase;
   font-weight: 500;
 }
-.snip1226 * {
+.flip * {
 
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
-.snip1226 li {
+.flip li {
   display: inline-block;
   list-style: outside none none;
   margin: 0 1.5em;
   overflow: hidden;
 }
-.snip1226 a {
+.flip a {
   padding: 0.3em 0;
   position: relative;
 
@@ -211,13 +211,13 @@ a:hover:after{
   margin: 0;
   text-decoration: none;
 }
-.snip1226 a:before,
-.snip1226 a:after {
+.flip a:before,
+.flip a:after {
   position: absolute;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
-.snip1226 a:before {
+.flip a:before {
   bottom: 100%;
   display: block;
   height: 3px;
@@ -225,7 +225,7 @@ a:hover:after{
   content: "";
   background-color: #ADB9D1;
 }
-.snip1226 a:after {
+.flip a:after {
   padding: 0.3em 0;
   position: absolute;
   bottom: 100%;
@@ -233,8 +233,8 @@ a:hover:after{
   content: attr(data-hover);
   white-space: nowrap;
 }
-.snip1226 li:hover a,
-.snip1226 .current a {
+.flip li:hover a,
+.flip .current a {
   transform: translateY(100%);
 }
 /* nav hover effect */
@@ -591,4 +591,22 @@ figure.snip1091.hover figcaption:after {
     display: inline;
     font-size: 5em;
     margin: 0.3em;
+}
+.social-bar {
+  margin: 0;
+  line-height: 65px;
+  list-style: none;
+  color: black;
+}
+.social-bar > li {
+  color: black;
+  display: inline-block;
+  padding-left: 5%;
+}
+.social-bar > li > a {
+    color: #ADB9D1;
+    font-size: 300%;
+}
+.social-bar > li > a:hover {
+    color: #ADB9D1;
 }
