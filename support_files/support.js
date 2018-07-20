@@ -8,6 +8,7 @@
          disableWeekends: true,
          yearRange: 1
        });
+       $('.scrollspy').scrollSpy();
      });
 
     $(window).scroll(function() {
