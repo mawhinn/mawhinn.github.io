@@ -592,21 +592,3 @@ figure.snip1091.hover figcaption:after {
     font-size: 5em;
     margin: 0.3em;
 }
-.social-bar {
-  margin: 0;
-  line-height: 65px;
-  list-style: none;
-  color: black;
-}
-.social-bar > li {
-  color: black;
-  display: inline-block;
-  padding-left: 5%;
-}
-.social-bar > li > a {
-    color: #DADADA;
-    font-size: 300%;
-}
-.social-bar > li > a:hover {
-    color: #4E4E4E;
-}
