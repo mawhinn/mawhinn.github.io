@@ -551,3 +551,12 @@ figure.tilt.hover figcaption:after {
 .social-bar > li > a:hover {
     color: #ADB9D1;
 }
+
+.img {
+    position: relative;
+    width:  500px;
+    height: 230px !important;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+  }
