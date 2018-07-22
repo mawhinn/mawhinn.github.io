@@ -553,7 +553,6 @@ figure.tilt.hover figcaption:after {
 }
 
 .img {
-    position: relative;
     width:  500px;
     height: 230px !important;
     background-position: 50% 50%;
