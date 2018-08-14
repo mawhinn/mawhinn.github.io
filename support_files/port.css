@@ -110,7 +110,6 @@ a {
     left: 0;
     background: linear-gradient(to bottom, #000000, #ffffff);
     opacity: 0.12;
-
     min-height: 1000px;
     z-index: 0;
 }
@@ -487,8 +486,10 @@ figure.tilt.hover figcaption:after {
 .link:hover {
   color: #ADB9D1;
 }
+
 .parallax-title {
     font-family: 'Coustard', serif;
+    position: absolute;
     font-size: 4vw;
     background-color: transparent;
     z-index: 1;
@@ -498,6 +499,18 @@ figure.tilt.hover figcaption:after {
     width: 100%;
     display: flex;
     align-items: center;
+}
+.parallax-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to bottom, #000000, #ffffff);
+  opacity: 0.3;
+  min-height: 1000px;
+  z-index: 0;
 }
 /* Overriding tab color*/
 .tabs .indicator{
