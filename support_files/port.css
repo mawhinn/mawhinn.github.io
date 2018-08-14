@@ -508,7 +508,7 @@ figure.tilt.hover figcaption:after {
   bottom: 0;
   left: 0;
   background: linear-gradient(to bottom, #000000, #ffffff);
-  opacity: 0.3;
+  opacity: 0.2;
   min-height: 1000px;
   z-index: 0;
 }
