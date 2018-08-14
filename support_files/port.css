@@ -389,6 +389,7 @@ figure.tilt {
   background: #000000;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
   box-shadow: 5px 8px 10px #888888;
+  border-radius: 1%;
 }
 
 figure.tilt * {
@@ -397,7 +398,7 @@ figure.tilt * {
 }
 
 figure.tilt img {
-  opacity: 0.25;
+  opacity: 0.5;
   max-width: 100%;
   position: relative;
   top: 0;
