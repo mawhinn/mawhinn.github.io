@@ -255,6 +255,12 @@ a {
 
 /* Logo image */
 
+.aa-tab {
+  height: 500px;
+  width: 100px;
+  top: 50px;
+}
+
 .aa-nav-icon {
     position: absolute;
     height: 60px;
