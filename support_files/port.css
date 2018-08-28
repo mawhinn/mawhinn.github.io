@@ -49,11 +49,13 @@ a {
     top: 400px;
     background-color: #4E4E4E;
 }
+
 /* This needs fixed
 #home {
   height: calc(100vh - 0px);
 }
 */
+
 .section {
   padding-top: 4vw;
   padding-bottom: 4vw;
@@ -255,10 +257,10 @@ a {
 
 .aa-nav-icon {
     position: absolute;
-    height: 35px;
+    height: 60px;
     cursor: pointer;
-    top: 14px;
-    left: 20px;
+    top: 2px;
+    left: 50px;
     display: inline;
 }
 
