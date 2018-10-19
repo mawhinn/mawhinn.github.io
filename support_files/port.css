@@ -600,4 +600,6 @@ figure.tilt.hover figcaption:after {
     transform:rotate(330deg);
     -webkit-transform:rotate(335deg);
     margin: 0 0.9em;
+    margin-right: 1.5em;
+    margin-left: 0em;
 }
