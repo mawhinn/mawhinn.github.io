@@ -34,3 +34,7 @@
             opacity: "toggle"
         }, 300);
     }
+
+    function sorryFunction() {
+      alert("Sorry, this isn't avalible just yet. You can contact me through any of my social media pages though! Thanks for coming!");
+    };

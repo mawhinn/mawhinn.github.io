@@ -586,3 +586,18 @@ figure.tilt.hover figcaption:after {
     background-repeat:   no-repeat;
     background-size:     cover;
   }
+/*** Watermark ***/
+#watermark {
+    position:absolute;
+    z-index:0;
+    display:block;
+    min-height:50%;
+    min-width:50%;
+}
+#bg-text {
+    color:#ededed;
+    font-size: 7em;
+    transform:rotate(330deg);
+    -webkit-transform:rotate(335deg);
+    margin: 0 0.9em;
+}
