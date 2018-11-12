@@ -586,7 +586,7 @@ figure.tilt.hover figcaption:after {
     background-repeat:   no-repeat;
     background-size:     cover;
   }
-/*** Watermark ***/
+/*** Watermark
 #watermark {
     position:absolute;
     z-index:0;
@@ -603,3 +603,4 @@ figure.tilt.hover figcaption:after {
     margin-right: 1.5em;
     margin-left: 0em;
 }
+***/
